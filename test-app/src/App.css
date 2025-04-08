@@ -85,3 +85,13 @@ button:hover {
     background-color: #1e40af;
     color: #ffffff;
 }
+
+.light {
+    background-color: #fff;
+    color: #000;
+}
+
+.dark {
+    background-color: #000;
+    color: #fff;
+}

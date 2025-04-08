@@ -1,11 +1,12 @@
-import React from "react";
+import React, { useState } from 'react'
 import './App.css'
-import AralaqBaqylau8 from "./components/AralaqBaqylau8";
+import Text from './components/Text'
+import TextProvider from './components/TextProvider'
 
-export default function BlogPage() {
+export default function App() {
   return (
-    <div>
-      <AralaqBaqylau8/>
-    </div>
-  );
+    <TextProvider>
+      <Text/>
+    </TextProvider>
+  )
 }
